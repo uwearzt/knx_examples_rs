@@ -1,0 +1,28 @@
+# ------------------------------------------------------------------------------
+# Copyright 2017-2018 by Uwe Arzt mailto:mail@uwe-arzt.de, https://uwe-arzt.de
+# under BSD License, see https://uwe-arzt.de/bsd-license
+# ------------------------------------------------------------------------------
+
+[package]
+name = "knx_examples_rs"
+version = "0.0.1"
+authors = ["Uwe Arzt <mail@uwe-arzt.de>"]
+
+description = "Examples for KNX Library"
+
+repository = "https://github.com/uwearzt/knx_examples_rs"
+readme = "README.md"
+
+categories = ["network-programming", "embedded"]
+keywords = ["KNX", "Network"]
+license = "BSD-2-Clause"
+
+[dependencies]
+#knx_rs = { path="../knx_rs" }
+knx_rs = "0.0.1"
+#knx_ets_rs = { path="../knx_ets_rs" }
+knx_ets_rs = "0.0.1"
+
+serial = "0.4"
+clap = "2.31.2"
+log4rs ="0.4.1"

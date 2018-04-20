@@ -25,4 +25,4 @@ knx_ets_rs = "0.0.1"
 
 serial = "0.4"
 clap = "2.31.2"
-log4rs ="0.4.1"
+log4rs ="0.8.0"

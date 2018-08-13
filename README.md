@@ -1,5 +1,8 @@
 # knx_examples_rs
 
+[![Apache licensed](https://img.shields.io/badge/license-Apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Build Status](https://travis-ci.org/uwearzt/knx_examples_rs.svg?branch=master)](https://travis-ci.org/uwearzt/knx_examples_rs)
+[![crates.io](https://meritbadge.herokuapp.com/knx_examples_rs)](https://crates.io/crates/knx_examples_rs)
 [![Gitter](https://badges.gitter.im/knx_rs/Lobby.svg)](https://gitter.im/knx_rs/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 The `knx_examples_rs` implements some examples how
@@ -44,4 +47,4 @@ knx_send --multicast 1/1/1 1
 
 ## License
 
-see the LICENSE file.
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)

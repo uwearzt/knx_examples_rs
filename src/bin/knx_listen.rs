@@ -18,14 +18,12 @@
 extern crate clap;
 use clap::{App, Arg};
 
-extern crate knx_rs;
 use knx_rs::helper::hex_to_string;
 use knx_rs::parser::parse_cemi;
 
-extern crate knx_ets_rs;
 use knx_ets_rs::ets::Ets;
 
-extern crate serial;
+use serial;
 
 use std::net::UdpSocket;
 use std::net::Ipv4Addr;

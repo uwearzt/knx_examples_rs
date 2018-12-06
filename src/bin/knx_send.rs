@@ -18,10 +18,9 @@
 extern crate clap;
 use clap::{App, Arg};
 
-extern crate knx_rs;
 use knx_rs::address::Address;
 
-extern crate serial;
+use serial;
 
 use std::net::UdpSocket;
 use std::net::Ipv4Addr;

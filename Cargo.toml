@@ -16,7 +16,8 @@
 
 [package]
 name = "knx_examples_rs"
-version = "0.0.3"
+version = "0.0.4"
+edition = "2018"
 authors = ["Uwe Arzt <mail@uwe-arzt.de>"]
 
 description = "Examples for KNX Library"
@@ -30,9 +31,9 @@ license = "Apache-2.0"
 
 [dependencies]
 #knx_rs = { path="../knx_rs" }
-knx_rs = "0.0.3"
+knx_rs = "0.0.4"
 #knx_ets_rs = { path="../knx_ets_rs" }
-knx_ets_rs = "0.0.2"
+knx_ets_rs = "0.0.4"
 
 serial = "0.4"
 clap = "2.32.0"

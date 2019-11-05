@@ -1,7 +1,7 @@
 # knx_examples_rs
 
 [![Apache licensed](https://img.shields.io/badge/license-Apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Build Status](https://travis-ci.org/uwearzt/knx_examples_rs.svg?branch=master)](https://travis-ci.org/uwearzt/knx_examples_rs)
+[![Actions Status](https://github.com/uwearzt/knx_examples_rs/workflows/push_pullreq/badge.svg)](https://github.com/uwearzt/knx_examples_rs/actions)
 [![crates.io](https://meritbadge.herokuapp.com/knx_examples_rs)](https://crates.io/crates/knx_examples_rs)
 [![Gitter](https://badges.gitter.im/knx_rs/Lobby.svg)](https://gitter.im/knx_rs/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -29,12 +29,12 @@ You can export the OPC File in ETS with:
 after that you have to convert the file with:
 
 ```sh
-iconv -f ISO-8859-15 -t UTF-8 Haus.esf > Haus.esf.utf8 
+iconv -f ISO-8859-15 -t UTF-8 Haus.esf > Haus.esf.utf8
 ```
 
 ## knx_send
 
-Send a  message to a group adress: 
+Send a  message to a group adress:
 
 ```sh
 knx_send --serial --serialport /dev/usb_to_knx 1/1/1 1
